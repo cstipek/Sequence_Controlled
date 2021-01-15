@@ -1,0 +1,12 @@
+###See the average students in a university classroom
+
+total = 0 #sum of all the students
+class_counter = 0
+students = [131, 98, 78, 13, 91, 97, 93, 92, 86, 81, 79, 71]
+
+for student in students:
+    total += student
+    class_counter += 1
+    
+average = total / class_counter
+print(f'Average number of students in a classroom is {average}')
